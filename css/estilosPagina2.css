@@ -1,0 +1,129 @@
+body {
+    border: 5px solid rgb(44, 43, 43);
+}
+
+.gridArea {
+    display: grid;
+    grid-template-areas: 'divPowerGrid'
+                         'divBotones'
+                         'divFotos'
+                         'divNegro'
+                         'divCopyright';
+    margin: 10px;
+}
+
+.divPowerGrid {
+    grid-area: divPowerGrid;
+    background-color: #ddaa00;
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.espacios {
+    margin-top: 20px;
+}
+
+.margenDiv {
+    margin: 25px;
+}
+
+.divBotones {
+    grid-area: divBotones;
+    background-color: #cccccc;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+
+.buttons {
+    color: #e2b847;
+    font-size: 20px;
+    height: 50px;
+    width: 350px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 1px solid black;
+}
+
+.buttonsFotos1{
+    font-size: 18px;
+    height: 50px;
+    width: 360px;
+    margin-top: 8px;
+    margin-left: 38px;
+    margin-bottom: 8px;
+    border: 1px solid black;
+}
+
+.buttonsFotos2{
+    font-size: 18px;
+    height: 50px;
+    width: 410px;
+    margin-top: 8px;
+    margin-left: 40px;
+    margin-bottom: 8px;
+    border: 1px solid black;
+}
+
+.buttonsFotos3{
+    font-size: 18px;
+    height: 50px;
+    width: 874px;
+    margin-top: 4px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    border: 1px solid black;
+}
+
+.divFotos {
+    grid-area: divFotos;
+    background-color: #808080;
+}
+
+.divcontenedorFotos {
+    display: flex;
+    margin: 10px;
+}
+
+.divHijosFotos {
+    background-color: #ffffff;
+    margin: 10px;
+    width: 23%;
+}
+
+.divHijosFotos2 {
+    background-color: #ffffff;
+    margin: 10px;
+    width: 27%;
+}
+
+.divHijosFotos3 {
+    background-color: #ffffff;
+    margin: 10px;
+    width: 50%;
+}
+
+img {
+    margin: 10px
+}
+
+.divNegro {
+    grid-area: divNegro;
+    background-color: black;
+    height: 10px;
+}
+
+.divCopyright {
+    grid-area: divCopyright;
+    background-color: #ddaa00;
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
